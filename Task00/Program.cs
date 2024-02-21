@@ -8,5 +8,4 @@
 // -7 -> 49
 Console.WriteLine("Input a number");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.Write("The square of the number: ");
-Console.WriteLine(num*num);
+Console.Write($"The square of the number {num} = {num*num} ");
