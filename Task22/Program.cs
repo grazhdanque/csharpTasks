@@ -3,7 +3,7 @@
 int count = 1;
 while (count != number+1) 
 {
-    System.Console.WriteLine($"{count}, {Math.Pow(count,2)}");
+    System.Console.WriteLine($"{count, 3} {Math.Pow(count,2), 6}");
     count++;
 }
 }
