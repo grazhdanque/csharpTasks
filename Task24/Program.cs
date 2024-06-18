@@ -2,12 +2,16 @@
 {
     int count = num;
     num = 0;
-    while (count>0)
+    while (count > 0)
     {
-        num = num + count;
+        checked
+        {
+            num = num + count;
+        }
+
         count--;
     }
-return num;
+    return num;
 
 }
 System.Console.WriteLine("Input your number:");
