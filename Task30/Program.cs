@@ -21,8 +21,8 @@ void Filler(int[] array1, int length)
 void Monitor(int[] array2,int lastDigit)
 {
     System.Console.Write("[");
-    int i = 1;
-    while (i<lastDigit)
+    int i = 0;
+    while (i<lastDigit-1)
     {
         System.Console.Write($"{array2[i]},");
         i++;
