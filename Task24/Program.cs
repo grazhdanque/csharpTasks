@@ -1,1 +1,16 @@
-﻿
+﻿int Summary(int num)
+{
+    int count = num;
+    num = 0;
+    while (count>0)
+    {
+        num = num + count;
+        count--;
+    }
+return num;
+
+}
+System.Console.WriteLine("Input your number:");
+int number = Convert.ToInt32(Console.ReadLine());
+number = Summary(number);
+System.Console.WriteLine($"Result is {number}");
