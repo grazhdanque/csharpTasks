@@ -8,7 +8,7 @@ int[] Filler(int length1, int min, int max)
 {
     int[] array1 = new int[length1];
     Random rnd = new Random();
-    for (int i = 1; i < length1; i++)
+    for (int i = 0; i < length1; i++)
     {
         array1[i] = rnd.Next(min, max + 1);
     }
@@ -17,7 +17,7 @@ int[] Filler(int length1, int min, int max)
 void Monitor(int[] arr, string ben = ", ")
 {
     Console.Write("[");
-    for (int i = 1; i < arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         if (i < arr.Length - 1)
         {
